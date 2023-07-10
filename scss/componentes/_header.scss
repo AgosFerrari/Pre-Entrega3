@@ -1,0 +1,38 @@
+body{
+    header{
+        p{
+            background-color: map-get($header-ppl, bgc);
+            text-align: map-get($header-ppl, align);
+            padding: map-get($header-ppl, pad);
+            font-weight: map-get($header-ppl, weight);
+        }
+    }
+}
+
+header{
+    div{
+        nav{
+            ul{
+                li{
+                    margin-left: nth($sizepx, 1);
+                }
+            }
+        }
+    }
+}
+
+header{
+    div{
+        div{
+            ul{
+                li{
+                    margin-right: nth($sizepx, 1);
+                }
+            }
+        }
+    }
+}
+
+.navegacion ul li{
+    margin: 0px 10px;
+}

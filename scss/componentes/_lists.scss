@@ -1,0 +1,29 @@
+.buzo_x h1{
+    @extend %titulos;
+}
+
+.buzo_x h2{
+    @extend %titulos;
+}
+
+.buzo_x h4{
+    @extend %titulos;
+    color: lighten($color-2, 40%);
+}
+
+.buzo_x h5{
+    @extend %titulos;
+}
+
+.lista_talles{
+    @extend %lists;
+    li{
+        border: lighten($color-2, 60%) solid 1px;
+        justify-content: space-between;
+        padding: 5px 40px;
+    }
+}
+
+.lista_cantidad{
+    @extend %lists;
+}

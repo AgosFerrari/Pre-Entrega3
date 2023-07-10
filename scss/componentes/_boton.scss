@@ -1,0 +1,9 @@
+.boton{
+    p{
+        background-color: $color-1;
+        padding: nth($sizepx, 1) nth($sizepx, 4);
+        font-size: nth($sizepx, 3);
+        font-weight: nth($size, 2);
+
+    }
+}
